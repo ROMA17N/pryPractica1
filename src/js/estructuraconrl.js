@@ -1,4 +1,6 @@
 // ------------------------------ ESTRUCTURA IF -------------------------------
+
+/*
 let num = 2;
 if (num == 2) {
   console.log("Son iguales");  
@@ -23,7 +25,7 @@ if (days.martes === currenDay){
     console.log("felicidades pero a q costo !!");
 }
 
-
+*/
 
 let a = 34;
 let b = 23;
@@ -32,6 +34,7 @@ const arrayNumeros = [a, b, c];
 const arrayOrdenado = arrayNumeros.sort((a, b) => a - b);
 console.log(arrayNumeros.join(','));
 
+/*
 // ----------------------- Estructura switch -------------------------------
 let operador = '+';
 switch(operador) {
@@ -41,7 +44,9 @@ switch(operador) {
     case '/': console.log("Se va a realizar una divicion: "); break;
     default: console.log("Error !!");
 }
+*/
 
+/*
 //--------------------------------- switch multiple -------------------------------
 const namefruits = "Strawberry";
 switch (namefruits){
@@ -51,7 +56,9 @@ switch (namefruits){
         console.log(`${namefruits} is a fruit`); break;
     default: console.log("Is not fruit");
 }
+*/
 
+/*
 const foo = 5;
 switch (foo){
     case 2: console.log(2); break;
@@ -64,14 +71,25 @@ while (count <= 5) {
     console.log("count");
     count ++;
 }
+*/
 
-/*Desarrollar un script que permita mostrar la tabla de multiplicar de un numero determinado*/
+
+/*
+//Desarrollar un script que permita mostrar la tabla de multiplicar de un numero determinado
 let i = 1;
 const tableNumber = 6;
 let result =  `la tabla del ${tableNumber} es:\n`;
 
 while(i <= 10){
-    result += `${tableNumber} * ${count} = ${tableNumber}`
-    count++;
+    result += `${tableNumber} * ${i} = ${tableNumber * i}\n`;
+    i++;
 }
 console.log(result);
+*/
+
+// ----------------------Do While ---------
+ count = 5;
+do {
+    console.log(count)
+    count --;
+} while (count >= 0);
