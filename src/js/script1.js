@@ -84,7 +84,58 @@ console.log(`Esta es una comilla francesa`);
 console.log(`Francesa:${nameUser}`);
 console.log(`Francesa:${nameUser} mas texto ${nameAdmin}`);*/
 
+
+/*
 let name = "Ilia";
 alert( `hello ${1}` );
 alert( `hello ${"name"}` );
-alert( `hello ${name}` );
+alert( `hello ${name}` );*/
+
+
+
+//Para enviar un nuevo commit ejecutamos estos comandos
+/*git add .
+git commit -m "  "
+git push -u origin main */
+
+//Con Date() recuperamos toda la fecha de nuestra maquina 
+/*const date = new Date();
+
+let nameUser = prompt("Ingresa tu nombre: ");
+let numControl= prompt ("Ingresa tu numero de control: ");
+let birthday = prompt ('Ingresa tu anio de nacimiento: ');
+const age = date.getFullYear() - birthday;
+
+console.log(`Los datos del alumno son: \n nombre:${nameUser} numero de control${numControl}\n edad: ${age}`);*/
+
+/*let heigt = parseFloat(prompt("Ingrese la altura del triangulo"));
+let weight = parseFloat(prompt("Ingrese el ancho del rectangulo"));
+
+perimetro = (2 * heigt) + (2 * weight)
+console.log("El perimetro es: " + perimetro);*/
+
+//console.log('anio de nacimiento es: ', birthday);
+
+/*const gender = prompt('Ingresa tu genero: ').charAt(0);
+console.log(gender);*/
+
+//Clave: Valor 
+/*
+let jsonString = '{"Marca":"LG", "Modelo":"Zpluz","Ram":12,"Procesador":"Snapdragon 820"}';
+let cadenaNoparseada = jsonString;
+console.log(`Cadena no parseada: ${cadenaNoparseada}`);
+let StringParseado = JSON.parse(jsonString);
+console.log(`Cadena parceada:${StringParseado}`);
+*/
+
+
+//--------- OPERADOR TERNARIO --------------
+/*
+const date = new Date();
+let yearBirth= parseInt(prompt ("Ingresa tu año de nacimiento "));
+
+
+let message = (date.getFullYear() - yearBirth) >= 18? "Es mayor de edad" : "Es menor de edad";
+alert( message );
+
+*/
